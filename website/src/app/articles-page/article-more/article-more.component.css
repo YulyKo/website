@@ -1,0 +1,45 @@
+.article__component {
+  width: 420px;
+  margin-bottom: 9%;
+}
+
+.article__component>* {
+  flex: 1 1 160px;
+  color: #626262;
+
+}
+
+.link {
+  display: block;
+  color: #626262;
+  text-decoration: none;
+}
+
+.text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.article__component_category-imitation {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 14px;
+}
+
+.article__component_img-imitation {
+  width: 100%;
+  height: 320px;
+  background-color: #dad3d3;
+}
+
+.text_title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.text_anotation {
+  text-transform: none;
+  text-align: justify;
+}

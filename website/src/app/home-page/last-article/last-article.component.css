@@ -1,0 +1,41 @@
+.article__component {
+  width: 100%;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: tomato;
+}
+
+.article__component_text {
+  width: 90%;
+  margin: 9% auto;
+  text-align: justify;
+}
+
+.article__component_text--title {
+  margin-bottom: 34px;
+  margin-top: 28px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.article__component_img-imitation {
+  width: 100%;
+  height: 520px;
+  background-color: #b4ad9e;
+}
+
+.article__component_text--category {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 14px;
+}

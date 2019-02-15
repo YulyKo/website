@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 11%;
+  padding-top: 7%;
+  background-color: #f0f0f0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.btn-send {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAARCAMAAACLgl7OAAAAAXNSR0IB2cksfwAAAJBQTFRFAAAAHh4bHh4aHR0bGxsbHR0bHR0bHh4bHR0bHR0bHR0aIiIiHR0aHBwcHh4aHR0bHR0bHBwcKysrHBwcHh4bHR0bHR0aGxsbAAAAICAYHBwcHR0cHR0cAAAAHR0bJCQkICAgICAgHh4cHR0dHBwbHh4cHR0bHR0bHR0bHR0aHBwcGxsbHx8aHx8XHR0bHR0bqzGMWgAAADB0Uk5TAHCkYByFgnmWjFAPTglEhpVABhJUj3QwASBklJMCjgcIEHg0vIC6/9xYUUExIYRxPZ6fqQAAAJFJREFUeJyFktkSgjAMAONBalEhCBRpRVDwvv7/78yTKGrYx2QnkwsGw9EYRDxUE+1PBQNnMA9CwmghGEycpGSypWAwuXUrm0sGQJEZWiexYDBlhOQFlWAwG1/Tti7aQLP7Zn84nv5XOGtSbYVODxek8KOH9ymuhtLuFK/8zTr3Yw99m+R8Jd3ijoqkaz56/uEJ1P4MNgpgnmIAAAAASUVORK5CYII=");
+  height: 17px;
+  width: 30px;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.label {
+  border-style: none;
+  height: 20px;
+  display: inline-block;
+}
+
+.input {
+  background: none;
+  border-style: none;
+  height: 100%;
+}
+
+.label:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  background: #333;
+  width: 100%;
+  margin: 9px auto;
+}
+
+@media screen and ( max-width: 600px) {
+  .container {
+    padding-bottom: 17%;
+  }
+}

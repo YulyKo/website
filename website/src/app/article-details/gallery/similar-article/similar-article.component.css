@@ -1,0 +1,18 @@
+article__component {
+  display: flex;
+}
+
+.article__component_img-imitation {
+  height: 182px;
+  width: 273px;
+  background-color: #f2f2f2;
+}
+
+.link {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: #626262;
+}

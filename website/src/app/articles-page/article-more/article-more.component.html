@@ -1,0 +1,6 @@
+<a class="link article__component" *ngFor="let article of articles" routerLink="articles/{{article.id}}">
+  <div class="article__component_img-imitation"></div>
+  <h3 class="article__component_category-imitation">photodiary</h3>
+  <h2 class="text text_title">{{ article.title }}</h2>
+  <p class="text text_anotation">{{ article.body }}</p>
+</a>

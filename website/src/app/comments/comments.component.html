@@ -1,0 +1,6 @@
+<main>
+  <div>
+    <app-comment *ngFor="let comment of comments" [comment]="comment" class="example-item"></app-comment>
+  </div>
+  <app-comment-form (sent)="onCommentSend($event)"></app-comment-form>
+</main>

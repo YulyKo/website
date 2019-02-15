@@ -21,4 +21,9 @@ export class SarticleService {
   getCommentsByPostId( postId: number ) {
     return this.http.get('https://jsonplaceholder.typicode.com/post/' + postId + '/comments').toPromise();
   }
+
+  getUserId(id: number ) {
+    return this.http.get('https://jsonplaceholder.typicode.com/users/' + id ).toPromise();
+  }
+
 }
